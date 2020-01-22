@@ -16,7 +16,7 @@ var TextToMp3 = function () { }
   TextToMp3.prototype.attributes = {
     ie: "UTF-8",
     client : "tw-ob",
-    tl : "It-it"
+    tl : "US-en"
   };
 
   var _parseURL = function(path, text){
@@ -42,7 +42,7 @@ var TextToMp3 = function () { }
   TextToMp3.prototype.saveMP3 = function(text, fileName, callback){
 
     var optionsModel = {
-      tl: 'it'
+      tl: 'en'
     }
     var options;
     var callback;
@@ -82,7 +82,7 @@ var TextToMp3 = function () { }
       request = require('request');
 
     var optionsModel = {
-      tl: 'it'
+      tl: 'en'
     }
     var options;
     var callback;
